@@ -4,10 +4,11 @@
   box-sizing: border-box;
 }
 body {
-  background-image: linear-gradient(120deg, #c7c8c7 20%, #202020 100%);
+  background-image: linear-gradient(120deg, #F04393 0%, #f9c449 100%);
   color: white;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
+
 }
 header {
   font-size: 2rem;
@@ -20,12 +21,14 @@ form {
   justify-content: center;
   align-items: center;
 }
+
 form input,
 form button {
   padding: 0.5rem;
   font-size: 2rem;
   border: none;
   background: white;
+  /* opacity: 0.6; */
 }
 form button {
   color: #0a0a0a;
